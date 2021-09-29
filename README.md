@@ -1,5 +1,6 @@
-[![tests](https://github.com/berpress/python-api-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/berpress/python-api-tests/actions/workflows/tests.yml)
+[![tests](https://github.com/Memirex/python_api_tests/actions/workflows/tests1.yml/badge.svg)](https://github.com/Memirex/python_api_tests/actions/workflows/tests1.yml)
 # Python api tests
+![](images/pytest.png)
 
 This is a tutorial project that shows how to implement api tests in Python
 
@@ -15,6 +16,9 @@ Testing application (write with Flask):
 git: https://github.com/berpress/flask-restful-api
 
 url: https://stores-tests-api.herokuapp.com
+
+swagger: https://app.swaggerhub.com/apis/berpress/flask-rest-api/1.0.0
+
 
 
 ### How to start
@@ -48,4 +52,9 @@ pre-commit install
 
 ```python
 pytest
+```
+
+Some requests require an authorization token. Use header like
+```angular2html
+"Authorization": "JWT {token}"
 ```
